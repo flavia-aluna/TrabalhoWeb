@@ -30,3 +30,7 @@ body{
     box-shadow: 0px 5px 18px rgb(126, 13, 141);
     border-radius: 5px;
 }
+
+.top{
+    margin-top: 10%;
+}
