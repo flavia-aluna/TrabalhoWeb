@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(36, 31, 31, 0.733);
+    color: white;
+}
+
+#ia{
+    background-color: rgb(14, 15, 15);
+    width: 101%;
+    height: 650px;
+    margin: -1%;
+    margin-left: -1%;
+    box-shadow: 0px 15px 20px rgba(56, 211, 56, 0.726);
+}
+
+#lista{
+    margin-top: 50px;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.clearfix{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.clearfix img{
+    box-shadow: 0px 5px 18px rgb(126, 13, 141);
+    border-radius: 5px;
+}
