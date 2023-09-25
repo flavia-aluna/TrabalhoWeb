@@ -20,46 +20,48 @@ body{
     top: 0px;
 }
 
+#tema{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: -800px;
+}
+
 #oqueeIA{
     position: relative;
     left: 30px;
-    top: -500px;
+    top: -450px;
     border-radius: 45px;
 }
 
 #tipos{
     position: relative;
     left: 80px;
-    top: -500px;
+    top: -450px;
     border-radius: 45px;
 }
 
 #apli{
     position: relative;
     left: 130px;
-    top: -500px;
+    top: -450px;
     border-radius: 45px;
 }
 
 #plataforma{
     position: relative;
     left: 180px;
-    top: -500px;
+    top: -450px;
     border-radius: 45px;
 }
 
-
-#lista{
-    margin-top: 50px;
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.bord{
+    border: 2px rgba(160, 41, 41, 0.623) solid;
+    width: 50%;
 }
 
 .clearfix{
-    padding-top: 5%;
+    padding-top: 2%;
     padding-left: 10%;
     padding-right: 10%;
 }
