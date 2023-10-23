@@ -17,3 +17,8 @@ function apli() {
     let apl = window.document.getElementById("apli")
     apli.style.transform = 'translateY(5px)';
 }
+
+function plataforma() {
+    let plat = window.document.getElementById("plataforma")
+    plataforma.style.transform = 'translateY(5px)';
+}

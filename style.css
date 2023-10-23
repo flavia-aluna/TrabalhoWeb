@@ -69,6 +69,10 @@ body{
     border-radius: 45px;
 }
 
+#plataforma:hover{
+    transform: translateY(5px); /* Move o botão 5 pixels para baixo no eixo Y no hover */
+}
+
 .bord{
     border: 2px rgba(160, 41, 41, 0.623) solid;
     width: 50%;
