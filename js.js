@@ -13,3 +13,7 @@ function tipos() {
     tipos.style.transform = 'translateY(5px)';
 }
 
+function apli() {
+    let apl = window.document.getElementById("apli")
+    apli.style.transform = 'translateY(5px)';
+}

@@ -60,6 +60,9 @@ body{
     padding-top: 15%;
     border-radius: 45px;
 }
+#apli:hover{
+    transform: translateY(5px); /* Move o botão 5 pixels para baixo no eixo Y no hover */
+}
 
 #plataforma{
     padding-top: 15%;
