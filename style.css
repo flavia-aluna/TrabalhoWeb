@@ -12,6 +12,7 @@ body{
     box-shadow: 0px 15px 20px rgba(5, 54, 5, 0.726);
 }
 
+
 #box{ /*nav bar fixada no topo da pagina*/
     background-image: linear-gradient(to right, black, rgb(13, 49, 13));
     position: fixed;
