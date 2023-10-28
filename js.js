@@ -1,24 +1,40 @@
 function home() {
-    let home = window.document.getElementById("home")
-    home.style.transform = 'translateY(5px)';
+    let Home = window.document.getElementById("home")
+    Home.style.transform = 'translateY(5px)';
 }
 
 function oqueeIA() {
     let ia = window.document.getElementById("oqueeIA")
-    oqueeIA.style.transform = 'translateY(5px)';
+    ia.style.transform = 'translateY(5px)';
 }
 
 function tipos() {
     let tip = window.document.getElementById("tipos")
-    tipos.style.transform = 'translateY(5px)';
+    tip.style.transform = 'translateY(5px)';
 }
 
-function apli() {
+function aplicacao() {
     let apl = window.document.getElementById("apli")
-    apli.style.transform = 'translateY(5px)';
+    apl.style.transform = 'translateY(5px)';
 }
 
 function plataforma() {
     let plat = window.document.getElementById("plataforma")
-    plataforma.style.transform = 'translateY(5px)';
+    plat.style.transform = 'translateY(5px)';
 }
+
+function atualizarRelogio() {
+    const relogioElement = document.getElementById("relogio");
+    const dataAtual = new Date();
+
+    const horas = dataAtual.getHours().toString().padStart(2, "0");
+    const minutos = dataAtual.getMinutes().toString().padStart(2, "0");
+    const segundos = dataAtual.getSeconds().toString().padStart(2, "0");
+
+    relogioElement.textContent = `Agora são: ${horas}:${minutos}:${segundos}`;
+  }
+
+  setInterval(atualizarRelogio, 1000); // Atualiza a cada segundo
+
+
+

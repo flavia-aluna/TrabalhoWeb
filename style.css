@@ -12,25 +12,37 @@ body{
     box-shadow: 0px 15px 20px rgba(5, 54, 5, 0.726);
 }
 
-
 #box{ /*nav bar fixada no topo da pagina*/
     background-image: linear-gradient(to right, black, rgb(13, 49, 13));
     position: fixed;
-    height: 10%;
+    height: 15%;
     width: 100%;
     top: 0px;
 }
 
-#home:hover {
-    transform: translateY(5px); /* Move o botão 5 pixels para baixo no eixo Y no hover */
-}
-
 #container{ /*imagem de fundo no menu*/
-    
+    border:2px red solid;
     height: 600px;
     background-image: url(../TrabalhoWeb/img/fundomenu.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#relogio{
+    position: relative;
+    margin-left: 90%;
+    margin-top: 1%;
+    font-size: larger; 
+}
+#logo{
+    width: 5%;
+    height: 35%;
+    margin-top: -40px;
+}
+#casa{
+    width: 5%;
+    height: 30%;
+    margin-top: -45px;
 }
 
 #tema{
