@@ -88,7 +88,7 @@ body{
 }
 
 .clearfix{
-    padding-top: 2%;
+    padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -149,6 +149,7 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.rem;
     color: #a8a29e;
+   
 }
 
 #footer_contacts h1 {
@@ -181,7 +182,7 @@ footer {
 }
 
 #linkedin {
-    background-color: #0b66c3;
+    background-color: #024e0f;
 }
 
 .footer-list {
@@ -197,7 +198,7 @@ footer {
 }
 
 .footer-list .footer-link:hover {
-    color: #7f37c9
+    color: #024e0f
 }
 
 #footer_subscribe {
@@ -224,7 +225,7 @@ footer {
 }
 
 #input_group button {
-    background-color: #7f37c9;
+    background-color: #024e0f;
     border: none;
     color: #f5f5f5;
     padding: 0px 1.25rem;
