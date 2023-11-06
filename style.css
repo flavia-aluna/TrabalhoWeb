@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(230, 226, 194);
+    background-color: rgb(236, 232, 206);
     color: black;
 }
 
@@ -21,13 +21,11 @@ body{
 }
 
 #container{ /*imagem de fundo no menu*/
-    border:2px red solid;
     height: 600px;
-    background-image: url(../TrabalhoWeb/img/fundomenu.png);
+    background-image: url(../copiateste/img/fundomenu.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 #relogio{
     position: relative;
     margin-left: 90%;
@@ -52,11 +50,11 @@ body{
     top: -800px;
 }
 
+/*Inicio do código para efeito dos botões de navegação*/
 #oqueeIA{
     padding-top: 15%;
     border-radius: 45px;
 }
-
 #oqueeIA:hover {
     transform: translateY(5px); /* Move o botão 5 pixels para baixo no eixo Y no hover */
 }
@@ -68,7 +66,6 @@ body{
 #tipos:hover {
     transform: translateY(5px); /* Move o botão 5 pixels para baixo no eixo Y no hover */
 }
-
 #apli{
     padding-top: 15%;
     border-radius: 45px;
@@ -76,15 +73,14 @@ body{
 #apli:hover{
     transform: translateY(5px); /* Move o botão 5 pixels para baixo no eixo Y no hover */
 }
-
 #plataforma{
     padding-top: 15%;
     border-radius: 45px;
 }
-
 #plataforma:hover{
     transform: translateY(5px); /* Move o botão 5 pixels para baixo no eixo Y no hover */
 }
+/*fim do código para efeito dos botões de navegação*/
 
 .bord{
     border: 2px rgba(160, 41, 41, 0.623) solid;
@@ -105,3 +101,35 @@ body{
 .top{
     margin-top: 5%;
 }
+
+/* inicio do código para efeito para aumentar e diminuir o tamanho das imagens do corpo*/
+#fundo3dIA {
+transition: transform 0.3s;
+max-width: 100%;
+max-height: 100%;
+}
+
+#fundo3dIA.zoomed {
+transform: scale(1.2); /* Aumenta o zoom para 120% (ou o valor desejado) */
+}
+
+#desenhoIA{
+transition: transform 0.3s;
+max-width: 100%;
+max-height: 100%;
+}
+
+#desenhoIA.zoomed {
+transform: scale(1.2);
+}
+
+#abeinfobrasil{
+transition: transform 0.3s;
+max-width: 100%;
+max-height: 100%;
+}
+
+#abeinfobrasil.zoomed{
+transform: scale(1.2);
+}
+/* fim do código para efeito para aumentar e diminuir o tamanho das imagens do corpo*/
