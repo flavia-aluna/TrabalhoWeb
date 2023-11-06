@@ -22,7 +22,7 @@ body{
 
 #container{ /*imagem de fundo no menu*/
     height: 600px;
-    background-image: url(../copiateste/img/fundomenu.png);
+    background-image: url(../TrabalhoWeb/img/fundomenu.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -198,11 +198,7 @@ footer {
 }
 
 .footer-list .footer-link:hover {
-<<<<<<< HEAD
-    color: #024e0f
-=======
     color: #024e0f;
->>>>>>> 411365767846ba14c20e991cf70c9ddfdd283b7c
 }
 
 #footer_subscribe {
@@ -229,11 +225,7 @@ footer {
 }
 
 #input_group button {
-<<<<<<< HEAD
-    background-color: #024e0f;
-=======
     background-color:#024e0f;
->>>>>>> 411365767846ba14c20e991cf70c9ddfdd283b7c
     border: none;
     color: #f5f5f5;
     padding: 0px 1.25rem;
