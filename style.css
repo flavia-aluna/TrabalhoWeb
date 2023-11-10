@@ -79,6 +79,15 @@ body{
 }
 #plataforma:hover{
     transform: translateY(5px); /* Move o botão 5 pixels para baixo no eixo Y no hover */
+}*/
+
+.movebutton{
+    padding-top: 15%;
+    border-radius: 45px;
+}
+
+.movebutton:hover{
+    transform: translateY(5px);
 }
 /*fim do código para efeito dos botões de navegação*/
 
@@ -103,34 +112,14 @@ body{
 }
 
 /* inicio do código para efeito para aumentar e diminuir o tamanho das imagens do corpo*/
-#fundo3dIA {
-transition: transform 0.3s;
-max-width: 100%;
-max-height: 100%;
+.zoom{
+    transition: transform 0.3s;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-#fundo3dIA.zoomed {
-transform: scale(1.2); /* Aumenta o zoom para 120% (ou o valor desejado) */
-}
-
-#desenhoIA{
-transition: transform 0.3s;
-max-width: 100%;
-max-height: 100%;
-}
-
-#desenhoIA.zoomed {
-transform: scale(1.2);
-}
-
-#abeinfobrasil{
-transition: transform 0.3s;
-max-width: 100%;
-max-height: 100%;
-}
-
-#abeinfobrasil.zoomed{
-transform: scale(1.2);
+.zoom.zoomed {
+    transform: scale(1.2);
 }
 /* fim do código para efeito para aumentar e diminuir o tamanho das imagens do corpo*/
 

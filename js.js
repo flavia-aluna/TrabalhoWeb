@@ -1,7 +1,3 @@
-function home() {
-    let Home = window.document.getElementById("home")
-    Home.style.transform = 'translateY(5px)';
-}
 
 function oqueeIA() {
     let ia = window.document.getElementById("oqueeIA")
@@ -38,34 +34,17 @@ setInterval(atualizarRelogio, 1000); // Atualiza a cada segundo
 /*fim do código para o relógio*/
 
 /*Inicio do código para o efeito das imagens do corpo*/
-const zoomImage = document.getElementById("fundo3dIA");
+const zoomImages = document.querySelectorAll(".zoom");
 
-zoomImage.addEventListener("mouseover", () => {
-zoomImage.classList.add("zoomed");
-});
+for (const zoomImage of zoomImages) {
+    zoomImage.addEventListener("mouseover", () => {
+        zoomImage.classList.add("zoomed");
+    });
 
-zoomImage.addEventListener("mouseout", () => {
-zoomImage.classList.remove("zoomed");
-});
+    zoomImage.addEventListener("mouseout", () => {
+        zoomImage.classList.remove("zoomed");
+    });
+}
 
-const image = document.getElementById("desenhoIA");
-
-image.addEventListener("mouseover", () => {
-image.classList.add("zoomed");
-});
-
-image.addEventListener("mouseout", () => {
-image.classList.remove("zoomed");
-});
-
-const brazil = document.getElementById("abeinfobrasil");
-
-brazil.addEventListener("mouseover", () => {
-brazil.classList.add("zoomed");
-});
-
-brazil.addEventListener("mouseout", () => {
-brazil.classList.remove("zoomed");
-});
 /*Fim do código para o efeito das imagens do corpo*/
 
