@@ -1,21 +1,21 @@
 
 function oqueeIA() {
     let ia = window.document.getElementById("oqueeIA")
-    ia.style.transform = 'translateY(5px)';
+    oqueeIA.style.transform = 'translateY(5px)';
 }
 function tipos() {
     let tip = window.document.getElementById("tipos")
-    tip.style.transform = 'translateY(5px)';
+    tipos.style.transform = 'translateY(5px)';
 }
 
 function aplicacao() {
     let apl = window.document.getElementById("apli")
-    apl.style.transform = 'translateY(5px)';
+    aplicacao.style.transform = 'translateY(5px)';
 }
 
 function plataforma() {
     let plat = window.document.getElementById("plataforma")
-    plat.style.transform = 'translateY(5px)';
+    plataforma.style.transform = 'translateY(5px)';
 }
 
 /*Inicio do código para o relógio*/
